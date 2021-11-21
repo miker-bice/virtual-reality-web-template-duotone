@@ -1,0 +1,120 @@
+/* *********************  RESET  *************** */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;   
+}
+
+body {
+    background: url(/images/main-background.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 95vh;
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+p {
+    margin: 10px 0px;
+}
+
+
+
+
+/* NAVIGATION */
+.navigation .flex {
+    justify-content: space-between;
+}
+
+.navigation {
+    margin-top: 20px;
+}
+
+.navbar-brand img {
+    width: 14rem;
+}
+
+.nav-items li > a {
+    color: #fff;
+}
+
+.nav-items li {
+    margin: 0 20px;
+    padding: 10px 10px;
+}
+
+.nav-item:hover {
+    border-bottom: 2px #fff solid;
+}
+
+
+/* HERO SECTION */
+.hero {
+    color: white;
+    margin-top: 20px;
+}
+
+.hero-container {
+    align-items: center;
+}
+
+.hero-text-container {
+    padding-left: 80px;
+}
+
+.hero-text-container h1 {
+    font-size: 4.5rem;
+}
+
+.hero-text-container h2 {
+    font-size: 1.75rem;
+}
+
+.hero-text-container p{
+    margin: 20px 0px;
+    width: 70%;
+}
+
+.button-cta {
+    margin: 50px 0px;
+}
+
+.hero-image-container img {
+    width: 93%;
+}
+
+
+
+/* UTILS */
+.btn {
+    cursor: pointer;
+    color: white;
+    background-color: #fe80b6;
+    padding: 15px 30px;
+    border-radius: 40px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.container {
+    padding: 0 100px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}

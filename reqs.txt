@@ -1,0 +1,9 @@
+fonts:
+Raleway regular
+Bungee regular
+
+
+Colors:
+#fe80b6
+#2a234e
+#ffffff
